@@ -55,7 +55,7 @@ export default function ImageWelcome() {
   return (
     <div className="relative bg-black/10 p-5 rounded-2xl">
       <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-                     text-5xl font-bold text-[#e6f39a] drop-shadow-lg text-center z-50">
+                     text-5xl font-bold text-[#e6f39a] drop-shadow-lg text-center z-40">
         Welcome to the PRESTIKA
       </h1>
       <div className="grid grid-cols-4 gap-3 bg-white p-3 rounded-xl">
