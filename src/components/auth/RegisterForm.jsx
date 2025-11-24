@@ -30,13 +30,13 @@ export default function RegisterForm() {
       >
         <option value="">---PILIH FAKULTAS---</option>
         {Object.keys(prodiOption).map((f) => (
-          <option value={f} key={f} className='text-white'>{f}</option>
+          <option value={f} key={f} className='text-black'>{f}</option>
         ))}
       </select>
       <select value={prodi} onChange={(e) => setProdi(e.target.value)} disabled={!fakultas} className='border p-2 w-full disabled:bg-gray-200 disabled:text-gray-500'>
         <option value="">---PILIH PRODI---</option>
         {fakultas && prodiOption[fakultas].map((p) => (
-          <option value={p} key={p}>{p}</option>
+          <option value={p} key={p} className='text-black'>{p}</option>
         ))}
       </select>
       <div className='relative'>
