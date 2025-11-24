@@ -9,6 +9,7 @@ import Leaderboard from './pages/client/Leaderboard.jsx'
 import MyAch from './pages/client/MyAch.jsx'
 import AddAch from './pages/client/AddAch.jsx'
 import UhamkaAch from './pages/client/UhamkaAch.jsx'
+import SubmitAchievement from './components/SubmitAchievement'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/my-achievements' element={<MyAch />} />
         <Route path='/uhamka-ach' element={<UhamkaAch />} />
         <Route path='/add-ach' element={<AddAch />} />
+        <Route path='/add-ach' element={<SubmitAchievement />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
